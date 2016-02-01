@@ -1,0 +1,44 @@
+{
+  "name": "gestion-almacen",
+  "version": "0.0.1",
+  "author": "Oficina de Software Libre de la Universidad de Granada <osl@ugr.es> (http://osl.ugr.es/)",
+  "contributors": [
+    "Germán Martínez Maldonado <germaaan@gmail.com>",
+    "Andrés Ortiz Corrales <andresortizcorrales@gmail.com>"
+  ],
+  "description": "Gestión del material informático proveniente de las donaciones",
+  "keywords": [
+    "gestion",
+    "almacen",
+    "inventario",
+    "donaciones"
+  ],
+  "bugs": {
+    "url": "https://github.com/oslugr/gestionAlmacen/issues"
+  },
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oslugr/gestionAlmacen.git"
+  },
+  "homepage": "https://github.com/oslugr/gestionAlmacen#readme",
+  "main": "index.js",
+  "os": [
+    "linux"
+  ],
+  "private": false,
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-hid": "^0.5.1"
+  },
+  "engines": {
+    "node": "^4.2.6",
+    "npm": "^2.14.12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
