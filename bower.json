@@ -13,32 +13,26 @@
     "inventario",
     "donaciones"
   ],
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
   "bugs": {
     "url": "https://github.com/oslugr/gestionAlmacen/issues"
   },
+  "main": "index.js",
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oslugr/gestionAlmacen.git"
   },
-  "homepage": "https://github.com/oslugr/gestionAlmacen#readme",
-  "main": "index.js",
   "os": [
     "linux"
   ],
+  "homepage": "https://github.com/oslugr/gestionAlmacen#readme",
   "private": false,
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
-    "node-hid": "^0.5.1"
-  },
-  "engines": {
-    "node": "^4.2.6",
-    "npm": "^2.14.12"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jquery": "jquery#2.1.4",
+    "moment": "moment#2.11.1"
   }
 }

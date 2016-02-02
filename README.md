@@ -1,6 +1,2 @@
-# gestionAlmacen
-Gestión del material informático proveniente de las donaciones
-
-```
-npm start
-```
+# Gestión Almacén
+Gestión del material informático proveniente de las donaciones.
