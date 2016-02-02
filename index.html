@@ -9,32 +9,42 @@
 
   <script src="lib/bower/jquery/dist/jquery.min.js"></script>
   <script src="lib/bower/moment/moment.js"></script>
-
-  <script type="text/javascript">
-    function leerDatos() {
-      var now = moment();
-
-      var datos = prompt("Leer código de barras", "");
-
-      if (datos != null) {
-        document.getElementById("valor").value = datos;
-      }
-
-      var fecha = now.format('YYYY-MM-DD');
-      document.getElementById("fecha").value = fecha;
-    }
-  </script>
+  <script src="lib/codigos.js"></script>
 </head>
 
 <body>
-
   <h1>Gestión almacen</h1>
-  Introducir datos: <input id="lector" onclick="leerDatos()" type="button" value="LEER" />
-  <br><br>
-  Código de barras: <input type="text" id="valor" disabled>
-  <br><br>
-  Fecha: <input type="text" id="fecha" disabled>
-
+    <input onclick="leerDatos()" type="button" value="Leer datos" />
+    <br>
+    <br> Código de barras:
+    <input type="text" id="codigo" disabled>
+    <br>
+    <br> Fecha:
+    <input type="text" id="fecha" disabled>
+    <br>
+    <br> Tipo de artículo:
+    <input type="text" id="articulo" disabled>
+    <br>
+    <br> Centro de origen:
+    <input type="text" id="centro" size="50" disabled>
+    <br>
+    <br> Identificador:
+    <input type="text" id="codid" disabled>
+    <br>
+    <br> Modelo:
+    <input type="text" id="modelo" size="30">
+    <br>
+    <br> Peso (en kg):
+    <input type="text" id="peso">
+    <br>
+    <br> ¿Funciona?
+    <input type="checkbox" id="funciona">
+    <br>
+    <br> Comentarios:
+    <br>
+    <textarea style="resize: none;" rows="4" cols="50" id="comentarios"></textarea>
+    <br>
+    <input onclick="enviarDatos()" type="submit" value="Enviar datos" />
 </body>
 
 </html>
