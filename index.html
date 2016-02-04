@@ -10,41 +10,43 @@
   <script src="lib/bower/jquery/dist/jquery.min.js"></script>
   <script src="lib/bower/moment/moment.js"></script>
   <script src="lib/codigos.js"></script>
+  <script src="lib/guardar.js"></script>
 </head>
 
 <body>
   <h1>Gestión almacen</h1>
-    <input onclick="leerDatos()" type="button" value="Leer datos" />
-    <br>
-    <br> Código de barras:
-    <input type="text" id="codigo" disabled>
-    <br>
-    <br> Fecha:
-    <input type="text" id="fecha" disabled>
-    <br>
-    <br> Tipo de artículo:
-    <input type="text" id="articulo" disabled>
-    <br>
-    <br> Centro de origen:
-    <input type="text" id="centro" size="50" disabled>
-    <br>
-    <br> Identificador:
-    <input type="text" id="codid" disabled>
-    <br>
-    <br> Modelo:
-    <input type="text" id="modelo" size="30">
-    <br>
-    <br> Peso (en kg):
-    <input type="text" id="peso">
-    <br>
-    <br> ¿Funciona?
-    <input type="checkbox" id="funciona">
-    <br>
-    <br> Comentarios:
-    <br>
-    <textarea style="resize: none;" rows="4" cols="50" id="comentarios"></textarea>
-    <br>
-    <input onclick="enviarDatos()" type="submit" value="Enviar datos" />
+  <input onclick="leerDatos()" type="button" value="Leer datos" />
+  <br>
+  <br>
+  <form id="envioDatos">
+    <fieldset>
+      <legend>
+        <h3>Datos del artículo:</h3></legend>
+      Código de barras:
+      <input type="text" id="codigo" disabled>
+      <br>
+      <br> Fecha:
+      <input type="text" id="fecha" disabled> Tipo de artículo:
+      <input type="text" id="articulo" disabled> Identificador:
+      <input type="text" id="codid" disabled>
+      <br>
+      <br> Centro de origen:
+      <input type="text" id="centro" size="50" disabled>
+      <br>
+      <br> Modelo:
+      <input type="text" id="modelo" size="30"> Peso (en kg):
+      <input type="text" id="peso"> ¿Funciona?
+      <input type="checkbox" id="funciona">
+      <br>
+      <br> Comentarios:
+      <br>
+      <textarea style="resize: none;" rows="4" cols="50" id="comentarios"></textarea>
+      <br>
+      <br>
+      <input type="submit" value="Enviar datos" />
+    </fieldset>
+  </form>
+
 </body>
 
 </html>
