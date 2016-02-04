@@ -44,7 +44,7 @@ function handleResponse(e) {
   } catch (e) {
     return ContentService
       .createTextOutput(JSON.stringify({
-        "result": "error",
+        "resultado": "error",
         "error": e
       }))
       .setMimeType(ContentService.MimeType.JSON);
