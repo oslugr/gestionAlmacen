@@ -10,20 +10,27 @@ function doPost(e) {
 }
 
 function handleResponse(e) {
-  var bloqueo = bloqueoService.getPublicbloqueo();
-  bloqueo.waitbloqueo(30000);
+  var bloqueo = LockService.getPublicLock();
+  bloqueo.waitLock(10000);
 
   try {
     var doc = SpreadsheetApp.openById(SCRIPT.getProperty("clave"));
-    var hoja = doc.gethojaByName(HOJA);
+    var hoja = doc.getSheetByName(HOJA);
 
-    var titulo = e.parameter.header_fila || 1;
     var cabeceras = hoja.getRange(1, 1, 1, hoja.getLastColumn()).getValues()[0];
-    var sigFila = hoja.getLastfila() + 1;
+    var sigFila = hoja.getLastRow() + 1;
     var fila = [];
 
-    for (i in cabeceras) {
-      fila.push(e.parameter[cabeceras[i]]);
+    for (i in cabeceras) {      
+      if (cabeceras[i] == "funciona") {
+        if (e.parameter[cabeceras[i]] == "on") {
+          fila.push("Sí");
+        } else {
+          fila.push("No");
+        }
+      } else {
+        fila.push(e.parameter[cabeceras[i]]);
+      }
     }
 
     hoja.getRange(sigFila, 1, 1, fila.length).setValues([fila]);
@@ -42,7 +49,7 @@ function handleResponse(e) {
       }))
       .setMimeType(ContentService.MimeType.JSON);
   } finally {
-    bloqueo.releasebloqueo();
+    bloqueo.releaseLock();
   }
 }
 

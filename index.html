@@ -23,24 +23,24 @@
       <legend>
         <h3>Datos del artículo:</h3></legend>
       Código de barras:
-      <input type="text" id="codigo" disabled>
+      <input type="text" id="codigo" name="codigo" readonly>
       <br>
       <br> Fecha:
-      <input type="text" id="fecha" disabled> Tipo de artículo:
-      <input type="text" id="articulo" disabled> Identificador:
-      <input type="text" id="codid" disabled>
+      <input type="text" id="fecha" name="fecha" readonly> Tipo de artículo:
+      <input type="text" id="articulo" name="articulo" readonly> Identificador:
+      <input type="text" id="codid" name="codid" readonly>
       <br>
       <br> Centro de origen:
-      <input type="text" id="centro" size="50" disabled>
+      <input type="text" id="centro" name="centro" size="50" readonly>
       <br>
       <br> Modelo:
-      <input type="text" id="modelo" size="30"> Peso (en kg):
-      <input type="text" id="peso"> ¿Funciona?
-      <input type="checkbox" id="funciona">
+      <input type="text" name="modelo" size="30"> Peso (en kg):
+      <input type="text" name="peso"> ¿Funciona?
+      <input type="checkbox" name="funciona">
       <br>
       <br> Comentarios:
       <br>
-      <textarea style="resize: none;" rows="4" cols="50" id="comentarios"></textarea>
+      <textarea style="resize: none;" rows="4" cols="50" name="comentarios"></textarea>
       <br>
       <br>
       <input type="submit" value="Enviar datos" />
