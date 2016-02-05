@@ -9,13 +9,13 @@
 
   <script src="lib/bower/jquery/dist/jquery.min.js"></script>
   <script src="lib/bower/moment/moment.js"></script>
-  <script src="lib/codigos.js"></script>
+  <script src="lib/cargar.js"></script>
   <script src="lib/guardar.js"></script>
 </head>
 
 <body>
   <h1>Gestión almacen</h1>
-  <input onclick="leerDatos()" type="button" value="Leer datos" />
+  <input id="leerDatos" type="button" value="Leer datos" />
   <br>
   <br>
   <form id="envioDatos">
@@ -46,7 +46,6 @@
       <input type="submit" value="Enviar datos" />
     </fieldset>
   </form>
-
 </body>
 
 </html>
