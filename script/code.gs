@@ -18,7 +18,6 @@ function handleResponse(e) {
     var hoja = doc.getSheetByName(HOJA);
 
     var cabeceras = hoja.getRange(1, 1, 1, hoja.getLastColumn()).getValues()[0];
-    var sigFila = hoja.getLastRow() + 1;
     var fila = [];
 
     for (i in cabeceras) {      
@@ -31,6 +30,24 @@ function handleResponse(e) {
       } else {
         fila.push(e.parameter[cabeceras[i]]);
       }
+    }
+
+    var todo = hoja.getSheetValues(1, 1, hoja.getLastRow(), 1);
+    var existe = false;
+    var j = 0;
+
+    while (!existe && j < hoja.getLastRow()) {
+      if (todo[j][0] == e.parameter["codigo"]) {
+        existe = true;
+      }
+
+      j++;
+    }
+
+    if (!existe) {
+      var sigFila = hoja.getLastRow() + 1;
+    } else {
+      var sigFila = j;
     }
 
     hoja.getRange(sigFila, 1, 1, fila.length).setValues([fila]);
