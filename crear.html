@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Gestión almacen - Crear códigos de barras</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Gestión almacen">
+  <meta name="keywords" content="gestion, almacen, inventario, donaciones">
+
+  <script src="lib/bower/jquery/dist/jquery.min.js"></script>
+  <script src="lib/generar.js"></script>
+</head>
+
+<body>
+  <h1>Gestión almacen</h1>
+  <h2>Crear códigos de barras</h2>
+
+  <form id="generaCodigo">
+    <fieldset>
+      <legend>
+        <h3>Datos del artículo:</h3></legend>
+      <br> Centro de origen:
+      <select id="centro" name="centro">
+      </select>
+      Tipo de artículo:
+      <select id="articulo" name="articulo">
+      </select>
+      <br>
+      <br> Identificador:
+      <input type="text" id="codid" name="codid" readonly>
+      <br>
+      <br>
+      <input type="submit" value="Crear código" />
+    </fieldset>
+  </form>
+</body>
+
+</html>
