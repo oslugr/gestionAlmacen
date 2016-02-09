@@ -8,7 +8,19 @@
   <meta name="keywords" content="gestion, almacen, inventario, donaciones">
 
   <script src="lib/bower/jquery/dist/jquery.min.js"></script>
+  <script src="lib/JsBarcode.all.min.js"></script>
   <script src="lib/generar.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#generar").click(function() {
+        $("#barcode").JsBarcode(document.getElementById("codid").value, {
+          format: "CODE128",
+          displayValue: true,
+          fontSize: 20
+        });
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -33,9 +45,13 @@
       <input type="text" id="codid" name="codid" readonly>
       <br>
       <br>
-      <input type="submit" value="Crear código" />
+      <input type="button" id="generar" value="Crear código" />
     </fieldset>
   </form>
+
+  <br>
+  <br>
+  <img id="barcode">
 
 </body>
 
