@@ -1,0 +1,63 @@
+{
+	"name": "gestion-almacen",
+	"version": "1.0.0",
+	"author": "Oficina de Software Libre de la Universidad de Granada <osl@ugr.es> (http://osl.ugr.es/)",
+	"contributors": [
+		"Germán Martínez Maldonado <germaaan@gmail.com>"
+	],
+	"description": "Gestión del material informático proveniente de las donaciones",
+	"keywords": [
+		"gestion",
+		"almacen",
+		"inventario",
+		"donaciones"
+	],
+	"bugs": {
+		"url": "https://github.com/oslugr/gestionAlmacen/issues"
+	},
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oslugr/gestionAlmacen.git"
+	},
+	"main": "app.js",
+	"homepage": "https://github.com/oslugr/gestionAlmacen#readme",
+	"os": [
+		"linux"
+	],
+	"private": true,
+	"directories": {
+		"lib": "lib"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.0",
+		"cookie-parser": "^1.4.0",
+		"express": "^4.13.4",
+		"jade": "^1.11.0",
+		"morgan": "^1.7.0",
+		"node-sass": "^3.4.2",
+		"serve-favicon": "^2.3.0"
+	},
+	"devDependencies": {
+		"bower": "^1.7.7",
+		"js-beautify": "^1.6.2",
+		"jshint": "^2.9.1",
+		"npm-check": "^5.2.1",
+		"pm2": "^1.0.2"
+	},
+	"engines": {
+		"node": ">=4.2.6",
+		"npm": ">=2.14.12"
+	},
+	"scripts": {
+		"start": "pm2 start app.js && pm2 save",
+		"stop": "pm2 stop app",
+		"libs": "bower install",
+		"sass": "node-sass public/style/scss/*.scss -o public/style/css",
+		"postinstall": "npm run libs && npm run sass",
+		"restart": "pm2 restart app.js && pm2 save",
+		"check": "npm-check",
+		"beautify": "js-beautify --indent-with-tabs --brace-style collapse -r *.js app/*.js public/js/*.js *.json public/data/*.json",
+		"jshint": "jshint *.js app/*.js public/js/*.js *.json public/data/*.json"
+	}
+}
