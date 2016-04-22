@@ -14,7 +14,7 @@ module.exports = function(app) {
 	// Directorio con las plantillas
 	app.set("views", "views");
 	// Motor de visualización
-	app.set("view engine", "jade");
+	app.set("view engine", "pug");
 
 	// Favicon
 	app.use(favicon("./public/favicon/favicon.ico"));
