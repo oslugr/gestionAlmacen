@@ -2,7 +2,7 @@
 node_modules
 
 # Directorio de librerías instaladas
-public/lib
+public/lib/vendor
 
 # Directorio de hojas de estilo CSS generadas
 public/style/css
