@@ -27,6 +27,14 @@ $(document).ready(function() {
 		});
 	});
 
+	$("#generar").click(function() {
+    $("#barcode").JsBarcode(document.getElementById("codid").value, {
+      format: "CODE128",
+      displayValue: true,
+      fontSize: 20
+    });
+  });
+
 	var centros = ["Administración de Servicios Centrales",
 		"Albergue Universitario",
 		"Apoyo a Vicerrectorados",

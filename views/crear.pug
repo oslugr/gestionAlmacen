@@ -2,4 +2,24 @@ extends layout
 
 block content
     .col-md-4.col-md-offset-4.text-center
-        h2 Crear etiqueta
+        h2 Crear etiquetas
+        .col-xs-12(style='height:14px;')
+        form#generaCodigo.form-horizontal(role='form', action='', method='post')
+            label(for='centro') Centro de origen:
+            .col-xs-12(style='height:10px;')
+            select#centro.form-control(name='centro', required='')
+            .col-xs-12(style='height:20px;')
+            label(for='articulo') Tipo de artículo:
+            .col-xs-12(style='height:10px;')
+            select#articulo.form-control(name='articulo', required='')
+            .col-xs-12(style='height:20px;')
+            button#getId.btn.btn-default(type='button') Generar código
+            .col-xs-12(style='height:20px;')
+            br
+            label(for='codid') Código:
+            .col-xs-12(style='height:10px;')
+            input#codid.form-control(name='codid', type='text', readonly="")
+            .col-xs-12(style='height:10px;')
+            button#generar.btn.btn-default(type='button') Crear código
+        .col-xs-12(style='height:50px;')
+        img#barcode

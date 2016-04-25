@@ -3,11 +3,14 @@ head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='Aplicación web para gestión del material informático en el almacén')
+    meta(name='keywords', content='gestion, almacen, inventario, donaciones')
     meta(name='author', content='Germán Martínez Maldonado')
     link(rel='icon', href='/images/favicon.ico')
     title= titulo
     link(rel='stylesheet', href='/style/css/style.css')
-    script(src='/lib/jquery/dist/jquery.min.js')
+    script(src='/lib/vendor/jquery/dist/jquery.min.js')
+    script(src='/lib/JsBarcode.all.min.js')
+    script(src='/js/generar.js')
 body
     nav.navbar.navbar-inverse.navbar-fixed-top
         .container
