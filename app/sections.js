@@ -6,15 +6,15 @@ exports.index = function(req, res) {
 };
 
 // Pagina de creación de etiquetas
-exports.crear = function(req, res) {
-	res.render("crear", {
+exports.etiquetas = function(req, res) {
+	res.render("etiquetas", {
 		titulo: "Gestión de almacén: Crear etiquetas"
 	});
 };
 
 // Pagina de inserción de artículos
-exports.insertar = function(req, res) {
-	res.render("insertar", {
+exports.articulos = function(req, res) {
+	res.render("articulos", {
 		titulo: "Gestión de almacén: Insertar artículos"
 	});
 };

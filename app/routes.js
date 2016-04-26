@@ -3,8 +3,8 @@ var sections = require("./sections");
 module.exports = function(app) {
 	// Rutas de acceso
 	app.get("/", sections.index);
-	app.get("/crear", sections.crear);
-	app.get("/insertar", sections.insertar);
+	app.get("/etiquetas", sections.etiquetas);
+	app.get("/articulos", sections.articulos);
 
 	// Captura errores
 	app.use(function(req, res, next) {

@@ -1,0 +1,53 @@
+extends layout
+
+block content
+    script(src='/lib/vendor/moment/moment.js')
+    script(src='/js/cargar.js')
+    script(src='/js/guardar.js')
+
+    .col-md-8.col-md-offset-2.text-center
+        h2 Insertar artículos
+        button#leerDatos.btn.btn-default(type='button') Leer datos
+        .col-xs-12(style='height:40px;')
+        h3 Datos del artículo
+        .col-xs-12(style='height:14px;')
+        form#envioDatos.form-horizonta(role='form')
+          .row
+          .col-xs-6.form-group
+            label Código de barras
+            input.form-control(type='text')
+          .col-xs-6.form-group
+            label Existencia
+            input.form-control(type='text')
+          .col-xs-12
+            .row
+              .col-xs-8.col-sm-4
+                label Fecha
+                input.form-control(type='text')
+              .col-xs-8.col-sm-4
+                label Tipo de artículo
+                input.form-control(type='text')
+              .col-xs-8.col-sm-4
+                label Identificador
+                input.form-control(type='text')
+          .col-xs-12(style='height:10px;')
+          .col-xs-12.form-group
+            label Centro de origen
+            input.form-control(type='text')
+          .col-xs-12
+            .row
+              .col-xs-8.col-sm-4
+                label Modelo
+                input.form-control(type='text')
+              .col-xs-8.col-sm-4
+                label Peso (en kg)
+                input.form-control(type='text')
+              .col-xs-8.col-sm-4
+                label ¿Funciona?
+                input.form-control(type='checkbox')
+          .col-xs-12(style='height:10px;')
+          .col-xs-12.form-group
+            label Comentarios
+            input.form-control(type='textarea')
+          .col-xs-12(style='height:10px;')
+          submit#leerDatos.btn.btn-default(type='submit') Enviar datos

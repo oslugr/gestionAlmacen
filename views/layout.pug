@@ -9,8 +9,7 @@ head
     title= titulo
     link(rel='stylesheet', href='/style/css/style.css')
     script(src='/lib/vendor/jquery/dist/jquery.min.js')
-    script(src='/lib/JsBarcode.all.min.js')
-    script(src='/js/generar.js')
+
 body
     nav.navbar.navbar-inverse.navbar-fixed-top
         .container
@@ -25,9 +24,9 @@ body
                     li
                         a(href='/') Inicio
                     li
-                        a(href='/crear') Crear etiquetas
+                        a(href='/etiquetas') Crear etiquetas
                     li
-                        a(href='/insertar') Insertar artículos
+                        a(href='/articulos') Insertar artículos
     .container
         .starter-template
             block content

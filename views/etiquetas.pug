@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    script(src='/lib/JsBarcode.all.min.js')
+    script(src='/js/generar.js')
+
+    .col-md-8.col-md-offset-2.text-center
+        h2 Crear etiquetas
+        .col-xs-12(style='height:14px;')
+        form#envioDatos.form-horizonta(role='form')
+          .row
+          .col-xs-6.form-group
+            label(for='centro') Centro de origen:
+            select#centro.form-control(name='centro', required='')
+          .col-xs-6.form-group
+            label(for='articulo') Tipo de artículo:
+            select#articulo.form-control(name='articulo', required='')
+          .col-xs-12(style='height:10px;')
+          .col-xs-12.form-group
+            button#getId.btn.btn-default(type='button') Generar código
+          .col-xs-12(style='height:10px;')
+          .col-xs-8.col-sm-4.col-md-offset-4
+            label(for='codid') Código:
+            input#codid.form-control(name='codid', type='text', readonly="")
+          .col-xs-12(style='height:15px;')
+          .col-xs-12.form-group
+            button#generar.btn.btn-default(type='button') Crear etiqueta
+        .col-xs-12(style='height:50px;')
+          img#barcode
