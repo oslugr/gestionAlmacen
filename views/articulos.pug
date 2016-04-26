@@ -8,46 +8,46 @@ block content
     .col-md-8.col-md-offset-2.text-center
         h2 Insertar artículos
         button#leerDatos.btn.btn-default(type='button') Leer datos
-        .col-xs-12(style='height:40px;')
+        .col-xs-12(style='height:30px;')
         h3 Datos del artículo
         .col-xs-12(style='height:14px;')
         form#envioDatos.form-horizonta(role='form')
           .row
           .col-xs-6.form-group
-            label Código de barras
-            input.form-control(type='text')
+            label(for='codigo') Código de barras
+            input#codigo.form-control(type='text', name='codigo', readonly='')
           .col-xs-6.form-group
-            label Existencia
-            input.form-control(type='text')
+            label(for='existencia') Existencia
+            input#existencia.form-control(type='text', disabled='')
           .col-xs-12
             .row
               .col-xs-8.col-sm-4
-                label Fecha
-                input.form-control(type='text')
+                label(for='fecha') Fecha
+                input#fecha.form-control(type='text', name='fecha', readonly='')
               .col-xs-8.col-sm-4
-                label Tipo de artículo
-                input.form-control(type='text')
+                label(for='articulo') Tipo de artículo
+                input#articulo.form-control(type='text', name='articulo', readonly='')
               .col-xs-8.col-sm-4
-                label Identificador
-                input.form-control(type='text')
+                label(for='codid') Identificador
+                input#codid.form-control(type='text', name='codid', readonly='')
           .col-xs-12(style='height:10px;')
           .col-xs-12.form-group
-            label Centro de origen
-            input.form-control(type='text')
+            label(for='centro') Centro de origen
+            input#centro.form-control(type='text', name='centro', size='50', readonly='')
           .col-xs-12
             .row
               .col-xs-8.col-sm-4
-                label Modelo
-                input.form-control(type='text')
+                label(for='modelo') Modelo
+                input#modelo.form-control(type='text', name='modelo', size='30')
               .col-xs-8.col-sm-4
-                label Peso (en kg)
-                input.form-control(type='text')
+                label(for='peso') Peso (en kg)
+                input#peso.form-control(type='text', name='peso')
               .col-xs-8.col-sm-4
-                label ¿Funciona?
-                input.form-control(type='checkbox')
+                label(for='funciona') ¿Funciona?
+                input#funciona.form-control(type='checkbox', name='funciona')
           .col-xs-12(style='height:10px;')
           .col-xs-12.form-group
-            label Comentarios
-            input.form-control(type='textarea')
+            label(for='comentarios') Comentarios
+            textarea#comentarios.form-control(style='resize: none;', rows='4', cols='50', name='comentarios')
           .col-xs-12(style='height:10px;')
-          submit#leerDatos.btn.btn-default(type='submit') Enviar datos
+          submit#enviarDatos.btn.btn-default(type='button') Enviar datos
