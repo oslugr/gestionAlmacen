@@ -1,31 +1,31 @@
 [{
 	"tipo": "Torre",
-	"codigo": 1
+	"codigo": "01"
 }, {
 	"tipo": "Portátil",
-	"codigo": 2
+	"codigo": "02"
 }, {
 	"tipo": "Monitor CRT",
-	"codigo": 3
+	"codigo": "03"
 }, {
 	"tipo": "Monitor TFT",
-	"codigo": 4
+	"codigo": "04"
 }, {
 	"tipo": "Impresora",
-	"codigo": 5
+	"codigo": "05"
 }, {
 	"tipo": "Escáner",
-	"codigo": 6
+	"codigo": "06"
 }, {
 	"tipo": "Fax",
-	"codigo": 7
+	"codigo": "07"
 }, {
 	"tipo": "Periféricos",
-	"codigo": 8
+	"codigo": "08"
 }, {
 	"tipo": "Equipo completo",
-	"codigo": 9
+	"codigo": "09"
 }, {
 	"tipo": "Otro dispositivo",
-	"codigo": 99
+	"codigo": "99"
 }]
