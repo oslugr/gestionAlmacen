@@ -1,33 +1,31 @@
-{
-    "articulos": [{
-        "tipo": "Torre",
-        "codigo": 1
-    }, {
-        "tipo": "Portátil",
-        "codigo": 2
-    }, {
-        "tipo": "Monitor CRT",
-        "codigo": 3
-    }, {
-        "tipo": "Monitor TFT",
-        "codigo": 4
-    }, {
-        "tipo": "Impresora",
-        "codigo": 5
-    }, {
-        "tipo": "Escáner",
-        "codigo": 6
-    }, {
-        "tipo": "Fax",
-        "codigo": 7
-    }, {
-        "tipo": "Periféricos",
-        "codigo": 8
-    }, {
-        "tipo": "Equipo completo",
-        "codigo": 9
-    }, {
-        "tipo": "Otro dispositivo",
-        "codigo": 99
-    }]
-}
+[{
+	"tipo": "Torre",
+	"codigo": 1
+}, {
+	"tipo": "Portátil",
+	"codigo": 2
+}, {
+	"tipo": "Monitor CRT",
+	"codigo": 3
+}, {
+	"tipo": "Monitor TFT",
+	"codigo": 4
+}, {
+	"tipo": "Impresora",
+	"codigo": 5
+}, {
+	"tipo": "Escáner",
+	"codigo": 6
+}, {
+	"tipo": "Fax",
+	"codigo": 7
+}, {
+	"tipo": "Periféricos",
+	"codigo": 8
+}, {
+	"tipo": "Equipo completo",
+	"codigo": 9
+}, {
+	"tipo": "Otro dispositivo",
+	"codigo": 99
+}]
