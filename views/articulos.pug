@@ -2,8 +2,7 @@ extends layout
 
 block content
     script(src='/lib/vendor/moment/moment.js')
-    script(src='/js/cargar.js')
-    script(src='/js/guardar.js')
+    script(src='/js/insertarArticulos.js')
 
     .col-md-8.col-md-offset-2.text-center
         h2 Insertar artículos
@@ -50,4 +49,4 @@ block content
             label(for='comentarios') Comentarios
             textarea#comentarios.form-control(style='resize: none;', rows='4', cols='50', name='comentarios')
           .col-xs-12(style='height:10px;')
-          submit#enviarDatos.btn.btn-default(type='button') Enviar datos
+          input#enviarDatos.btn.btn-default(type='submit', value='Enviar datos')
