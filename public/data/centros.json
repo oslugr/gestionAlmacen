@@ -1,383 +1,1113 @@
 {
-	"centros": ["Administración de  Servicios Centrales",
-		"Albergue Universitario",
-		"Apoyo a Vicerrectorados",
-		"Apoyo Dirección Colegios Mayores y Residencias",
-		"Apoyo Equipo Gerencia",
-		"Archivo Universitario",
-		"Área de Documentación y Edición",
-		"Asociacionismo, Cultura y Sociedad",
-		"Aula Permanente de Formación Abierta",
-		"Biblioteca Archivo Universitario",
-		"Biblioteca Campus Universitario de Ceuta",
-		"Biblioteca Campus Universitario de Melilla",
-		"Biblioteca Centro de Documentación Científica",
-		"Biblioteca Colegio Máximo de Cartuja",
-		"Biblioteca Edificio San Jerónimo",
-		"Biblioteca E.T.S. de Arquitectura",
-		"Biblioteca E.T.S. de Ingeniería de Caminos, Canales y Puertos",
-		"Biblioteca E.T.S. de Ingenierías Informática y de Telecomunicación",
-		"Biblioteca Facultad de Bellas Artes",
-		"Biblioteca Facultad de Ciencias",
-		"Biblioteca Facultad de Ciencias de la Educación",
-		"Biblioteca Facultad de Ciencias del Deporte",
-		"Biblioteca Facultad de Ciencias Económicas y Empresariales",
-		"Biblioteca Facultad de Ciencias Políticas y Sociología",
-		"Biblioteca Facultad de Derecho",
-		"Biblioteca Facultad de Farmacia",
-		"Biblioteca Facultad de Filosofía y Letras",
-		"Biblioteca Facultad de Psicología",
-		"Biblioteca Facultad de Traducción e Interpretación",
-		"Biblioteca Medicina y Cc. de la Salud",
-		"Biblioteca Servicios Centrales",
-		"Biblioteca Universitaria",
-		"Biblioteca Universitaria Hospital Real",
-		"Bienes Culturales",
-		"Campus de Excelencia Internacional Biotic Granada",
-		"Campus Universitario de Ceuta",
-		"Campus Universitario de Melilla",
-		"Centro Cultural Casa de Porras. Casa del Estudiante",
-		"Centro de Actividades Deportivas",
-		"Centro de Cultura Contemporánea",
-		"Centro de Documentación Científica",
-		"Centro de Enseñanzas Virtuales",
-		"Centro de Enseñanzas Virtuales (Área Administrativa)",
-		"Centro de Iniciativas de Cooperación al Desarrollo",
-		"Centro de Instrumentación Cientifica",
-		"Centro de Instrumentación Científica",
-		"Centro de Investigacion Mente, Cerebro y Comportamiento",
-		"Centro de Investigación Tecnologías de Infor. y Comunicaciones",
-		"Centro de Lenguas Modernas",
-		"Centro de Lenguas Modernas",
-		"Centro de Promoción de Empleo y Prácticas",
-		"Centro de Servicios de Informática y Redes de Comunicación",
-		"Centro de Servicios de Informática y Redes de Comunicaciones (CSIRC)",
-		"Centro Investigación Biomédica",
-		"Centro Mediterráneo",
-		"Centro Mixto Universidad Universidad Granada-Madoc",
-		"Colegio Mayor Albayzin",
-		"Colegio Mayor Alsajara",
-		"Colegio Mayor Cardenal Cisneros",
-		"Colegio Mayor Garnata",
-		"Colegio Mayor Isabel al Católica",
-		"Colegio Mayor Isabel la Católica",
-		"Colegio Mayor Jesús-María",
-		"Colegio Mayor Loyola",
-		"Colegio Mayor Montaigne",
-		"Colegio Mayor San Bartolomé y Santiago",
-		"Colegio Mayor Santa Cruz la Real",
-		"Colegio Mayor Santa Fé",
-		"Colegio Mayor Santa María",
-		"Colegio Mayor Santo Domingo",
-		"Comedores Universitarios",
-		"Comité de Empresa del Personal de Administración y Servicios",
-		"Comité de Empresa del Personal Docente e Investigador Laboral",
-		"Consejo Social",
-		"Consejo Social (Administración)",
-		"Conservación y Restauración",
-		"Coordinación con Órganos de Representación y Gestión Estudiantil",
-		"Coordinador General de Acceso",
-		"Coordinadora General de Emprendimiento",
-		"CSIRC-Administración",
-		"CSIRC-Administración Electrónica",
-		"CSIRC-Apoyo a la Docencia",
-		"CSIRC-Asesoría y Apoyo para Desarrollo de Apl.Gestión",
-		"CSIRC-Gestión Centralizada",
-		"CSIRC-Gestión de Alumnos",
-		"CSIRC-Microinformática",
-		"CSIRC-Nodo Aynadamar",
-		"CSIRC-Nodo Cartuja",
-		"CSIRC-Nodo Ciencias de la Salud",
-		"CSIRC-Nodo Ciencias Jurídico-Sociales",
-		"CSIRC-Nodo Fuentenueva",
-		"CSIRC-Redes y Comunicaciones",
-		"CSIRC-Seguridad",
-		"CSIRC-Servicios Telemáticos",
-		"CSIRC-Sistemas de Gestión",
-		"CSIRC-Sistemas de Investigación",
-		"Defensor Universitario",
-		"Defensor Universitario (Administración)",
-		"Delegación de Calidad Ambiental y Bienestar",
-		"Delegación General de Estudiantes",
-		"Delegación para el Campus Universitario de Melilla",
-		"Delegación para la Transferencia, Innovación y Empresa",
-		"Delegación para la Universidad Digital",
-		"Departamento de Álgebra",
-		"Departamento de Análisis Geográfico Regional y Geografía Física",
-		"Departamento de Análisis Matemático",
-		"Departamento de Anatomía Patológica e Historia de la Ciencia",
-		"Departamento de Anatomía y Embriología Humana",
-		"Departamento de Antropología Social",
-		"Departamento de Arquitectura y Tecnología de Computadores",
-		"Departamento de Biología Celular",
-		"Departamento de Bioquímica y Biología Molecular I",
-		"Departamento de Bioquímica y Biología Molecular II",
-		"Departamento de Bioquímica y Biología Molecular IIi e Inmunología",
-		"Departamento de Botánica",
-		"Departamento de Ciencia Política y de la Administración",
-		"Departamento de Ciencias de la Computación e Inteligencia Artificial",
-		"Departamento de Ciencias Morfológicas",
-		"Departamento de Cirugía y Sus Especialidades",
-		"Departamento de Comercialización e Investigación de Mercados",
-		"Departamento de Construcciones Arquitectónicas",
-		"Departamento de Derecho Administrativo",
-		"Departamento de Derecho Civil",
-		"Departamento de Derecho Constitucional",
-		"Departamento de Derecho del Trabajo y de la Seguridad Social",
-		"Departamento de Derecho Financiero y Tributario",
-		"Departamento de Derecho Internacional Privado e Historia del Derecho",
-		"Departamento de Derecho Internacional Público y Relaciones Internacionales",
-		"Departamento de Derecho Mercantil y Derecho Romano",
-		"Departamento de Derecho Penal",
-		"Departamento de Derecho Procesal y Derecho Eclesiástico del Estado",
-		"Departamento de Dibujo",
-		"Departamento de Didáctica de la Expresión Musical Plástica y Corporal",
-		"Departamento de Didáctica de la Lengua y la Literatura",
-		"Departamento de Didáctica de la Matemática",
-		"Departamento de Didáctica de las Ciencias Experimentales",
-		"Departamento de Didáctica de las Ciencias Sociales",
-		"Departamento de Didáctica y Organización Escolar",
-		"Departamento de Ecología",
-		"Departamento de Economía Aplicada",
-		"Departamento de Economía Financiera y Contabilidad",
-		"Departamento de Economía Internacional y de España",
-		"Departamento de Edafología y Química Agrícola",
-		"Departamento de Educación Física y Deportiva",
-		"Departamento de Electromagnetismo y Física de la Materia",
-		"Departamento de Electrónica y Tecnología de Computadores",
-		"Departamento de Enfermería",
-		"Departamento de Escultura",
-		"Departamento de Estadística e Investigación Operativa",
-		"Departamento de Estomatología",
-		"Departamento de Estratigrafía y Paleontología",
-		"Departamento de Estudios Semíticos",
-		"Departamento de Expresión Gráfica Arquitectónica y en la Ingeniería",
-		"Departamento de Farmacia y Tecnología Farmacéutica",
-		"Departamento de Farmacología",
-		"Departamento de Filología Francesa",
-		"Departamento de Filología Griega y Filología Eslava",
-		"Departamento de Filología Latina",
-		"Departamento de Filologías Inglesa y Alemana",
-		"Departamento de Filologías:Románica, Italiana, Gallego-Portuguesa y Catalana",
-		"Departamento de Filosofía del Derecho",
-		"Departamento de Filosofía I",
-		"Departamento de Filosofía II",
-		"Departamento de Física Aplicada",
-		"Departamento de Física Atómica, Molecular y Nuclear",
-		"Departamento de Física Teórica y del Cosmos",
-		"Departamento de Fisicoquímica",
-		"Departamento de Fisiología",
-		"Departamento de Fisiología Vegetal",
-		"Departamento de Fisioterapia",
-		"Departamento de Genética",
-		"Departamento de Geodinámica",
-		"Departamento de Geografía Humana",
-		"Departamento de Geometría y Topología",
-		"Departamento de Histología",
-		"Departamento de Historia Antigua",
-		"Departamento de Historia Contemporánea",
-		"Departamento de Historia del Arte",
-		"Departamento de Historia del Arte y Musica",
-		"Departamento de Historia Medieval y Ciencias y Técnicas Historiográficas",
-		"Departamento de Historia Moderna y de América",
-		"Departamento de Historia y Ciencias de la Música",
-		"Departamento de Información y Comunicación",
-		"Departamento de Ingeniería Civil",
-		"Departamento de Ingeniería de la Construcción y Proyectos de Ingeniería",
-		"Departamento de Ingeniería Química",
-		"Departamento de Lengua Española",
-		"Departamento de Lenguajes y Sistemas Informáticos",
-		"Departamento de Lingüística General y Teoría de la Literatura",
-		"Departamento de Literatura Española",
-		"Departamento de Matemática Aplicada",
-		"Departamento de Mecánica de Estructuras e Ingeniería Hidráulica",
-		"Departamento de Medicina",
-		"Departamento de Medicina Legal, Toxicología y Antropología Física",
-		"Departamento de Medicina Preventiva y Salud Pública",
-		"Departamento de Metodología de las Ciencias del Comportamiento",
-		"Departamento de Métodos Cuantitativos para la Economía y la Empresa",
-		"Departamento de Métodos de Investigación y Diagnóstico en Educación",
-		"Departamento de Microbiología",
-		"Departamento de Mineralogía y Petrología",
-		"Departamento de Nutrición y Bromatología",
-		"Departamento de Obstetricia y Ginecología",
-		"Departamento de Óptica",
-		"Departamento de Organización de Empresas",
-		"Departamento de Parasitología",
-		"Departamento de Pedagogía",
-		"Departamento de Pediatría",
-		"Departamento de Personalidad, Evaluación y Tratamiento Psicológico",
-		"Departamento de Pintura",
-		"Departamento de Prehistoria y Arqueología",
-		"Departamento de Psicobiología",
-		"Departamento de Psicología Evolutiva y de la Educación",
-		"Departamento de Psicología Experimental",
-		"Departamento de Psicología Social",
-		"Departamento de Psiquiatría",
-		"Departamento de Química Analítica",
-		"Departamento de Química Farmacéutica y Orgánica",
-		"Departamento de Química Física",
-		"Departamento de Química Inorgánica",
-		"Departamento de Química Orgánica",
-		"Departamento de Radiología y Medicina Física",
-		"Departamento de Sociología",
-		"Departamento de Teoría de la Señal, Telemática y Comunicaciones",
-		"Departamento de Teoría e Historia Económica",
-		"Departamento de Trabajo Social y Servicios Sociales",
-		"Departamento de Traducción e Interpretación",
-		"Departamento de Urbanística y Ordenación del Territorio",
-		"Departamento de Zoología",
-		"Edificio Casa de Porras",
-		"Edificio Fray Luis de Granada",
-		"Edificio Hospital Real/Complejo Administrativo Triunfo",
-		"Edificio Hospital Real/C.Triunfo.- Turno Tarde",
-		"Edificio Santa Lucía",
-		"Editorial Universidad de Granada",
-		"Editorial Universidad de Granada",
-		"Equipo de Gerencia",
-		"Equipo Mantenimiento Cartuja",
-		"Equipo Mantenimiento Centro 1",
-		"Equipo Mantenimiento Centro 2",
-		"Equipo Mantenimiento Fuentenueva",
-		"Equipo Mantenimiento Jardines",
-		"Equipos de Mantenimiento",
-		"Escuela de Doctorado de Ciencias de la Salud",
-		"Escuela de Doctorado de Ciencias, Tecnologías e Ingenierías",
-		"Escuela de Doctorado de Humanidades, Ciencias Sociales y Jurídicas",
-		"Escuela Internacional de Posgrado",
-		"Escuela Internacional de Posgrado",
-		"Escuela Internacional de Posgrado",
-		"E.T.S. de Arquitectura",
-		"E.T.S. de Ingeniería de Caminos, Canales y Puertos",
-		"E.T.S. de Ingeniería de Edificación",
-		"E.T.S. de Ingenierías Informática y de Telecomunicación",
-		"Extensión Universitaria",
-		"Facultad de Bellas Artes",
-		"Facultad de Ciencias",
-		"Facultad de Ciencias de la Educación",
-		"Facultad de Ciencias de la Salud",
-		"Facultad de Ciencias de la Salud de Ceuta",
-		"Facultad de Ciencias del Deporte",
-		"Facultad de Ciencias del Trabajo",
-		"Facultad de Ciencias Económicas y Empresariales",
-		"Facultad de Ciencias Políticas y Sociología",
-		"Facultad de Ciencias Sociales de Melilla",
-		"Facultad de Comunicación y Documentación",
-		"Facultad de Derecho",
-		"Facultad de Educación, Economía y Tecnología de Ceuta",
-		"Facultad de Educación y Humanidades de Melilla",
-		"Facultad de Enfermería de Melilla",
-		"Facultad de Farmacia",
-		"Facultad de Filosofía y Letras",
-		"Facultad de Medicina",
-		"Facultad de Odontología",
-		"Facultad de Psicología",
-		"Facultad de Trabajo Social",
-		"Facultad de Traducción e Interpretación",
-		"Fundación General Universidad de Granada Empresa",
-		"Gabinete de Acción Social",
-		"Gabinete de Calidad de Vida y Envejecimiento",
-		"Gabinete de Comunicación",
-		"Gabinete de la Rectora",
-		"Gabinete de Prevención y Calidad Ambiental",
-		"Gabinete de Protocolo y Relaciones Institucionales",
-		"Gabinete de Recursos Humanos y Organización",
-		"Gabinete Técnico de Construcción, Conservación y Mantenimiento",
-		"Gerencia",
-		"Herbario",
-		"Herbario Universidad",
-		"Hospital Real",
-		"Inspección de Servicios",
-		"Inst. Nutrición y Tecnología de Alimentos 'José Mataix Verdu'",
-		"Instituto Andaluz de Ciencias de la Tierra",
-		"Instituto Andaluz de Geofísica y Prevención Desastres Sísmicos",
-		"Instituto Andaluz Interuniversitario de Criminología",
-		"Instituto 'Carlos I' de Física Teórica y Computacional",
-		"Instituto Confucio",
-		"Instituto Confucio",
-		"Instituto de Biopatología y Medicina Regenerativa",
-		"Instituto de Biotecnología",
-		"Instituto de Investigación de Estudios de las Mujeres y de Género",
-		"Instituto de Migraciones",
-		"Instituto de Neurociencias 'Federico Olóriz'",
-		"Instituto del Agua",
-		"Instituto Inter de Inv. del Sistema Tierra en Andalucía (Ceama)",
-		"Instituto Universitario de Estudios de la Mujer",
-		"Instituto Universitario de Investigación de Desarrollo Regional",
-		"Instituto Universitario de la Paz y los Conflictos",
-		"Junta de Personal de Administración y Servicios",
-		"Junta de Personal Docente e Investigador Funcionario",
-		"Oficina de Control Interno",
-		"Oficina de Datos Análisis y Prospectiva",
-		"Oficina de Datos, Información y Prospectiva (Odip)",
-		"Oficina de Energía e Instalaciones",
-		"Oficina de Energía e Instalaciones",
-		"Oficina de Gestión de la Comunicación",
-		"Oficina de Infraestructura y Patrimonio",
-		"Oficina de Proyectos Internacionales",
-		"Oficina de Relaciones Internacionales y Cooperación Universitaria al Desarrollo",
-		"Oficina de Software Libre",
-		"Oficina de Transferencia de Resultados de Investigación",
-		"Oficina Económica",
-		"Oficina Web",
-		"Política Científica",
-		"Rectorado",
-		"Rectorado",
-		"Relaciones con Centros de Enseñanza Secundaria",
-		"Residencia Carlos V",
-		"Residencia Universitaria Carmen de la Victoria",
-		"Residencia Universitaria Carmen de la Victoria",
-		"Residencia Universitaria Corrala de Santiago",
-		"Sección Sindical Cc.Oo. Comisiones Obreras",
-		"Sección Sindical Csi-F Central Sindical Independiente y de Func",
-		"Sección Sindical Cta Granada- Coordinadora de Trabajadores de a",
-		"Sección Sindical Fete-Ugt",
-		"Sección Sindical Situgr-Sat Sindicato Independiente de la Ugr-S",
-		"Sección Sindical Ustea",
-		"Secretaría General",
-		"Secretaría General (Administración)",
-		"Secretariado de Campus Saludable",
-		"Secretariado de Coordinación Académica de la Internacionalización",
-		"Secretariado de Estrategia Internacional",
-		"Secretariado de Evaluación, Mejora y Acreditación de Títulos y Servicios",
-		"Secretariado de Formación, Innovación y Evaluación Docente",
-		"Secretariado de Igualdad y Conciliación",
-		"Secretariado de Información y Participación Estudiantil",
-		"Secretariado de Másteres y Títulos Propios",
-		"Secretariado de Personal Docente e Investigador",
-		"Secretariado de Plantilla y Planificación",
-		"Secretariado de Política Linguistica",
-		"Secretariado para la Inclusión y la Diversidad",
-		"Servicio de Alumnos",
-		"Servicio de Asistencia Estudiantil",
-		"Servicio de Asuntos Generales",
-		"Servicio de Becas",
-		"Servicio de Conductores",
-		"Servicio de Contabilidad y Presupuesto",
-		"Servicio de Contratación y Gestión Patrimonial",
-		"Servicio de Correo",
-		"Servicio de Evaluación ,Calidad y Planes de Estudio",
-		"Servicio de Gestión de Investigación",
-		"Servicio de Gestión Económico-Financiero",
-		"Servicio de Habilitación y Seguridad Social",
-		"Servicio de Ordenación Académica y de Estadística",
-		"Servicio de Personal de Administración y Servicios",
-		"Servicio de Personal Docente e Investigador",
-		"Servicio de Prevención de Riesgos Laborales",
-		"Servicio de Protección Radiológica",
-		"Servicios Jurídicos",
-		"Unidad de Becas y Asistencia al Estudiante",
-		"Unidad de Calidad Ambiental",
-		"Unidad de Calidad, Innovación y Prospectiva",
-		"Unidad de Orientación Profesional y Empleabilidad",
-		"Unidad para la Igualdad entre Mujeres y Hombres de la Ugr",
-		"Unidad Técnica de Construcción",
-		"Vicerrectorado de Docencia",
-		"Vicerrectorado de Estudiantes y Empleabilidad",
-		"Vicerrectorado de Extensión Universitaria",
-		"Vicerrectorado de Internacionalización",
-		"Vicerrectorado de Investigación y Transferencia",
-		"Vicerrectorado de Personal Docente e Investigador",
-		"Vicerrectorado de Responsabilidad Social, Igualdad e Inclusión"
-	]
+    "centros": [{
+        "nombre": "Administración de Servicios Centrales",
+        "codigo": "06UG02"
+    }, {
+        "nombre": "Albergue Universitario",
+        "codigo": "081DA"
+    }, {
+        "nombre": "Apoyo a Vicerrectorados",
+        "codigo": "06UG05"
+    }, {
+        "nombre": "Apoyo Dirección Colegios Mayores y Residencias",
+        "codigo": "06UG03"
+    }, {
+        "nombre": "Apoyo Equipo Gerencia",
+        "codigo": "06UG01"
+    }, {
+        "nombre": "Archivo Universitario",
+        "codigo": "06SA10"
+    }, {
+        "nombre": "Área de Documentación y Edición",
+        "codigo": "06UG08"
+    }, {
+        "nombre": "Asociacionismo, Cultura y Sociedad",
+        "codigo": "SUS25B"
+    }, {
+        "nombre": "Aula Permanente de Formación Abierta",
+        "codigo": "SUS27F"
+    }, {
+        "nombre": "Biblioteca Archivo Universitario",
+        "codigo": "051ARC"
+    }, {
+        "nombre": "Biblioteca Campus Universitario de Ceuta",
+        "codigo": "05CEU0"
+    }, {
+        "nombre": "Biblioteca Campus Universitario de Melilla",
+        "codigo": "05MEL0"
+    }, {
+        "nombre": "Biblioteca Centro de Documentación Científica",
+        "codigo": "05CDC"
+    }, {
+        "nombre": "Biblioteca Colegio Máximo de Cartuja",
+        "codigo": "05CMC"
+    }, {
+        "nombre": "Biblioteca Edificio San Jerónimo",
+        "codigo": "05BESJ"
+    }, {
+        "nombre": "Biblioteca E.T.S. de Arquitectura",
+        "codigo": "050B55"
+    }, {
+        "nombre": "Biblioteca E.T.S. de Ingeniería de Caminos, Canales y Puertos",
+        "codigo": "050B38"
+    }, {
+        "nombre": "Biblioteca E.T.S. de Ingenierías Informática y de Telecomunicación",
+        "codigo": "050B60"
+    }, {
+        "nombre": "Biblioteca Facultad de Bellas Artes",
+        "codigo": "050B01"
+    }, {
+        "nombre": "Biblioteca Facultad de Ciencias",
+        "codigo": "050B02"
+    }, {
+        "nombre": "Biblioteca Facultad de Ciencias de la Educación",
+        "codigo": "050B49"
+    }, {
+        "nombre": "Biblioteca Facultad de Ciencias del Deporte",
+        "codigo": "050B72"
+    }, {
+        "nombre": "Biblioteca Facultad de Ciencias Económicas y Empresariales",
+        "codigo": "050B11"
+    }, {
+        "nombre": "Biblioteca Facultad de Ciencias Políticas y Sociología",
+        "codigo": "050B37"
+    }, {
+        "nombre": "Biblioteca Facultad de Derecho",
+        "codigo": "050B03"
+    }, {
+        "nombre": "Biblioteca Facultad de Farmacia",
+        "codigo": "050B04"
+    }, {
+        "nombre": "Biblioteca Facultad de Filosofía y Letras",
+        "codigo": "050B05"
+    }, {
+        "nombre": "Biblioteca Facultad de Psicología",
+        "codigo": "050B50"
+    }, {
+        "nombre": "Biblioteca Facultad de Traducción e Interpretación",
+        "codigo": "050B53"
+    }, {
+        "nombre": "Biblioteca Medicina y Cc. de la Salud",
+        "codigo": "05EBBI"
+    }, {
+        "nombre": "Biblioteca Servicios Centrales",
+        "codigo": "050SC"
+    }, {
+        "nombre": "Biblioteca Universitaria",
+        "codigo": "06SA11"
+    }, {
+        "nombre": "Biblioteca Universitaria Hospital Real",
+        "codigo": "05BGU"
+    }, {
+        "nombre": "Bienes Culturales",
+        "codigo": "SUS23A"
+    }, {
+        "nombre": "Campus de Excelencia Internacional Biotic Granada",
+        "codigo": "SUOR19"
+    }, {
+        "nombre": "Campus Universitario de Ceuta",
+        "codigo": "01CEU0"
+    }, {
+        "nombre": "Campus Universitario de Melilla",
+        "codigo": "01MEL0"
+    }, {
+        "nombre": "Centro Cultural Casa de Porras. Casa del Estudiante",
+        "codigo": "SUCDP"
+    }, {
+        "nombre": "Centro de Actividades Deportivas",
+        "codigo": "06SA05"
+    }, {
+        "nombre": "Centro de Cultura Contemporánea",
+        "codigo": "SUS04A"
+    }, {
+        "nombre": "Centro de Documentación Científica",
+        "codigo": "03CDC"
+    }, {
+        "nombre": "Centro de Enseñanzas Virtuales",
+        "codigo": "SUS29C"
+    }, {
+        "nombre": "Centro de Enseñanzas Virtuales (Área Administrativa)",
+        "codigo": "06CE04"
+    }, {
+        "nombre": "Centro de Iniciativas de Cooperación al Desarrollo",
+        "codigo": "SUS28B"
+    }, {
+        "nombre": "Centro de Instrumentación Cientifica",
+        "codigo": "SUS26C"
+    }, {
+        "nombre": "Centro de Investigacion Mente, Cerebro y Comportamiento",
+        "codigo": "03CIMC"
+    }, {
+        "nombre": "Centro de Investigación Tecnologías de Infor. y Comunicaciones",
+        "codigo": "03CITI"
+    }, {
+        "nombre": "Centro de Lenguas Modernas",
+        "codigo": "SU0NH"
+    }, {
+        "nombre": "Centro de Promoción de Empleo y Prácticas",
+        "codigo": "06SA04"
+    }, {
+        "nombre": "Centro de Servicios de Informática y Redes de Comunicaciones (CSIRC)",
+        "codigo": "06SA09"
+    }, {
+        "nombre": "Centro Investigación Biomédica",
+        "codigo": "03IIB"
+    }, {
+        "nombre": "Centro Mediterráneo",
+        "codigo": "SUS04E"
+    }, {
+        "nombre": "Centro Mixto Universidad Universidad Granada-Madoc",
+        "codigo": "SUS04B"
+    }, {
+        "nombre": "Colegio Mayor Albayzin",
+        "codigo": "081MC"
+    }, {
+        "nombre": "Colegio Mayor Alsajara",
+        "codigo": "082MC"
+    }, {
+        "nombre": "Colegio Mayor Cardenal Cisneros",
+        "codigo": "0815MC"
+    }, {
+        "nombre": "Colegio Mayor Garnata",
+        "codigo": "0816MC"
+    }, {
+        "nombre": "Colegio Mayor Isabel la Católica",
+        "codigo": "086MC"
+    }, {
+        "nombre": "Colegio Mayor Jesús-María",
+        "codigo": "0811MC"
+    }, {
+        "nombre": "Colegio Mayor Loyola",
+        "codigo": "083MC"
+    }, {
+        "nombre": "Colegio Mayor Montaigne",
+        "codigo": "084MC"
+    }, {
+        "nombre": "Colegio Mayor San Bartolomé y Santiago",
+        "codigo": "088MC"
+    }, {
+        "nombre": "Colegio Mayor Santa Cruz la Real",
+        "codigo": "0813MC"
+    }, {
+        "nombre": "Colegio Mayor Santa Fé",
+        "codigo": "0810MC"
+    }, {
+        "nombre": "Colegio Mayor Santa María",
+        "codigo": "0812MC"
+    }, {
+        "nombre": "Colegio Mayor Santo Domingo",
+        "codigo": "0814MC"
+    }, {
+        "nombre": "Comedores Universitarios",
+        "codigo": "06SA07"
+    }, {
+        "nombre": "Comité de Empresa del Personal de Administración y Servicios",
+        "codigo": "09S1"
+    }, {
+        "nombre": "Comité de Empresa del Personal Docente e Investigador Laboral",
+        "codigo": "09S4"
+    }, {
+        "nombre": "Consejo Social",
+        "codigo": "07OR21"
+    }, {
+        "nombre": "Consejo Social (Administración)",
+        "codigo": "06EG03"
+    }, {
+        "nombre": "Conservación y Restauración",
+        "codigo": "SUS23B"
+    }, {
+        "nombre": "Coordinación con Órganos de Representación y Gestión Estudiantil",
+        "codigo": "SUS25C"
+    }, {
+        "nombre": "Coordinador General de Acceso",
+        "codigo": "SUS25F"
+    }, {
+        "nombre": "Coordinadora General de Emprendimiento",
+        "codigo": "SUS25G"
+    }, {
+        "nombre": "CSIRC-Administración",
+        "codigo": "06INF0A"
+    }, {
+        "nombre": "CSIRC-Administración Electrónica",
+        "codigo": "06INF16"
+    }, {
+        "nombre": "CSIRC-Apoyo a la Docencia",
+        "codigo": "06INF04"
+    }, {
+        "nombre": "CSIRC-Asesoría y Apoyo para Desarrollo de Apl.Gestión",
+        "codigo": "06INF13"
+    }, {
+        "nombre": "CSIRC-Gestión Centralizada",
+        "codigo": "06INF03"
+    }, {
+        "nombre": "CSIRC-Gestión de Alumnos",
+        "codigo": "06INF02"
+    }, {
+        "nombre": "CSIRC-Microinformática",
+        "codigo": "06INF05"
+    }, {
+        "nombre": "CSIRC-Nodo Aynadamar",
+        "codigo": "06INF08"
+    }, {
+        "nombre": "CSIRC-Nodo Cartuja",
+        "codigo": "06INF09"
+    }, {
+        "nombre": "CSIRC-Nodo Ciencias de la Salud",
+        "codigo": "06INF10"
+    }, {
+        "nombre": "CSIRC-Nodo Ciencias Jurídico-Sociales",
+        "codigo": "06INF11"
+    }, {
+        "nombre": "CSIRC-Nodo Fuentenueva",
+        "codigo": "06INF12"
+    }, {
+        "nombre": "CSIRC-Redes y Comunicaciones",
+        "codigo": "06INF01"
+    }, {
+        "nombre": "CSIRC-Seguridad",
+        "codigo": "06INF14"
+    }, {
+        "nombre": "CSIRC-Servicios Telemáticos",
+        "codigo": "06INF15"
+    }, {
+        "nombre": "CSIRC-Sistemas de Gestión",
+        "codigo": "06INF07"
+    }, {
+        "nombre": "CSIRC-Sistemas de Investigación",
+        "codigo": "06INF06"
+    }, {
+        "nombre": "Defensor Universitario",
+        "codigo": "SUOR20"
+    }, {
+        "nombre": "Defensor Universitario (Administración)",
+        "codigo": "06EG07"
+    }, {
+        "nombre": "Delegación de Calidad Ambiental y Bienestar",
+        "codigo": "07OR16"
+    }, {
+        "nombre": "Delegación General de Estudiantes",
+        "codigo": "09DGE"
+    }, {
+        "nombre": "Delegación para el Campus Universitario de Melilla",
+        "codigo": "07OR13"
+    }, {
+        "nombre": "Delegación para la Transferencia, Innovación y Empresa",
+        "codigo": "07OR15"
+    }, {
+        "nombre": "Delegación para la Universidad Digital",
+        "codigo": "07OR29"
+    }, {
+        "nombre": "Departamento de Álgebra",
+        "codigo": "02B001"
+    }, {
+        "nombre": "Departamento de Análisis Geográfico Regional y Geografía Física",
+        "codigo": "02B002"
+    }, {
+        "nombre": "Departamento de Análisis Matemático",
+        "codigo": "02B003"
+    }, {
+        "nombre": "Departamento de Anatomía Patológica e Historia de la Ciencia",
+        "codigo": "02B004"
+    }, {
+        "nombre": "Departamento de Anatomía y Embriología Humana",
+        "codigo": "02B0A9"
+    }, {
+        "nombre": "Departamento de Antropología Social",
+        "codigo": "02B0C1"
+    }, {
+        "nombre": "Departamento de Arquitectura y Tecnología de Computadores",
+        "codigo": "02B0A4"
+    }, {
+        "nombre": "Departamento de Biología Celular",
+        "codigo": "02B006"
+    }, {
+        "nombre": "Departamento de Bioquímica y Biología Molecular I",
+        "codigo": "02B0C6"
+    }, {
+        "nombre": "Departamento de Bioquímica y Biología Molecular II",
+        "codigo": "02B0C7"
+    }, {
+        "nombre": "Departamento de Bioquímica y Biología Molecular IIi e Inmunología",
+        "codigo": "02B0C8"
+    }, {
+        "nombre": "Departamento de Botánica",
+        "codigo": "02B0A0"
+    }, {
+        "nombre": "Departamento de Ciencia Política y de la Administración",
+        "codigo": "02B090"
+    }, {
+        "nombre": "Departamento de Ciencias de la Computación e Inteligencia Artificial",
+        "codigo": "02B009"
+    }, {
+        "nombre": "Departamento de Ciencias Morfológicas",
+        "codigo": "02B010"
+    }, {
+        "nombre": "Departamento de Cirugía y Sus Especialidades",
+        "codigo": "02B011"
+    }, {
+        "nombre": "Departamento de Comercialización e Investigación de Mercados",
+        "codigo": "02B0B0"
+    }, {
+        "nombre": "Departamento de Construcciones Arquitectónicas",
+        "codigo": "02B012"
+    }, {
+        "nombre": "Departamento de Derecho Administrativo",
+        "codigo": "02B013"
+    }, {
+        "nombre": "Departamento de Derecho Civil",
+        "codigo": "02B014"
+    }, {
+        "nombre": "Departamento de Derecho Constitucional",
+        "codigo": "02B015"
+    }, {
+        "nombre": "Departamento de Derecho del Trabajo y de la Seguridad Social",
+        "codigo": "02B092"
+    }, {
+        "nombre": "Departamento de Derecho Financiero y Tributario",
+        "codigo": "02B017"
+    }, {
+        "nombre": "Departamento de Derecho Internacional Privado e Historia del Derecho",
+        "codigo": "02B018"
+    }, {
+        "nombre": "Departamento de Derecho Internacional Público y Relaciones Internacionales",
+        "codigo": "02B091"
+    }, {
+        "nombre": "Departamento de Derecho Mercantil y Derecho Romano",
+        "codigo": "02B019"
+    }, {
+        "nombre": "Departamento de Derecho Penal",
+        "codigo": "02B079"
+    }, {
+        "nombre": "Departamento de Derecho Procesal y Derecho Eclesiástico del Estado",
+        "codigo": "02B0D3"
+    }, {
+        "nombre": "Departamento de Dibujo",
+        "codigo": "02B020"
+    }, {
+        "nombre": "Departamento de Didáctica de la Expresión Musical Plástica y Corporal",
+        "codigo": "02B021"
+    }, {
+        "nombre": "Departamento de Didáctica de la Lengua y la Literatura",
+        "codigo": "02B022"
+    }, {
+        "nombre": "Departamento de Didáctica de la Matemática",
+        "codigo": "02B023"
+    }, {
+        "nombre": "Departamento de Didáctica de las Ciencias Experimentales",
+        "codigo": "02B024"
+    }, {
+        "nombre": "Departamento de Didáctica de las Ciencias Sociales",
+        "codigo": "02B025"
+    }, {
+        "nombre": "Departamento de Didáctica y Organización Escolar",
+        "codigo": "02B026"
+    }, {
+        "nombre": "Departamento de Ecología",
+        "codigo": "02B0C9"
+    }, {
+        "nombre": "Departamento de Economía Aplicada",
+        "codigo": "02B027"
+    }, {
+        "nombre": "Departamento de Economía Financiera y Contabilidad",
+        "codigo": "02B028"
+    }, {
+        "nombre": "Departamento de Economía Internacional y de España",
+        "codigo": "02B0D4"
+    }, {
+        "nombre": "Departamento de Edafología y Química Agrícola",
+        "codigo": "02B029"
+    }, {
+        "nombre": "Departamento de Educación Física y Deportiva",
+        "codigo": "02B082"
+    }, {
+        "nombre": "Departamento de Electromagnetismo y Física de la Materia",
+        "codigo": "02B0A6"
+    }, {
+        "nombre": "Departamento de Electrónica y Tecnología de Computadores",
+        "codigo": "02B083"
+    }, {
+        "nombre": "Departamento de Enfermería",
+        "codigo": "02B031"
+    }, {
+        "nombre": "Departamento de Escultura",
+        "codigo": "02B086"
+    }, {
+        "nombre": "Departamento de Estadística e Investigación Operativa",
+        "codigo": "02B032"
+    }, {
+        "nombre": "Departamento de Estomatología",
+        "codigo": "02B0A1"
+    }, {
+        "nombre": "Departamento de Estratigrafía y Paleontología",
+        "codigo": "02B033"
+    }, {
+        "nombre": "Departamento de Estudios Semíticos",
+        "codigo": "02B034"
+    }, {
+        "nombre": "Departamento de Expresión Gráfica Arquitectónica y en la Ingeniería",
+        "codigo": "02B035"
+    }, {
+        "nombre": "Departamento de Farmacia y Tecnología Farmacéutica",
+        "codigo": "02B036"
+    }, {
+        "nombre": "Departamento de Farmacología",
+        "codigo": "02B037"
+    }, {
+        "nombre": "Departamento de Filología Francesa",
+        "codigo": "02B039"
+    }, {
+        "nombre": "Departamento de Filología Griega y Filología Eslava",
+        "codigo": "02B0D2"
+    }, {
+        "nombre": "Departamento de Filología Latina",
+        "codigo": "02B042"
+    }, {
+        "nombre": "Departamento de Filologías Inglesa y Alemana",
+        "codigo": "02B0B8"
+    }, {
+        "nombre": "Departamento de Filologías:Románica, Italiana, Gallego-Portuguesa y Catalana",
+        "codigo": "02B043"
+    }, {
+        "nombre": "Departamento de Filosofía del Derecho",
+        "codigo": "02B0B9"
+    }, {
+        "nombre": "Departamento de Filosofía I",
+        "codigo": "02B0D5"
+    }, {
+        "nombre": "Departamento de Filosofía II",
+        "codigo": "02B0D6"
+    }, {
+        "nombre": "Departamento de Física Aplicada",
+        "codigo": "02B046"
+    }, {
+        "nombre": "Departamento de Física Atómica, Molecular y Nuclear",
+        "codigo": "02B0D0"
+    }, {
+        "nombre": "Departamento de Física Teórica y del Cosmos",
+        "codigo": "02B080"
+    }, {
+        "nombre": "Departamento de Fisicoquímica",
+        "codigo": "02B0E2"
+    }, {
+        "nombre": "Departamento de Fisiología",
+        "codigo": "02B048"
+    }, {
+        "nombre": "Departamento de Fisiología Vegetal",
+        "codigo": "02B0B1"
+    }, {
+        "nombre": "Departamento de Fisioterapia",
+        "codigo": "02B0C2"
+    }, {
+        "nombre": "Departamento de Genética",
+        "codigo": "02B089"
+    }, {
+        "nombre": "Departamento de Geodinámica",
+        "codigo": "02B049"
+    }, {
+        "nombre": "Departamento de Geografía Humana",
+        "codigo": "02B050"
+    }, {
+        "nombre": "Departamento de Geometría y Topología",
+        "codigo": "02B051"
+    }, {
+        "nombre": "Departamento de Histología",
+        "codigo": "02B0B2"
+    }, {
+        "nombre": "Departamento de Historia Antigua",
+        "codigo": "02B093"
+    }, {
+        "nombre": "Departamento de Historia Contemporánea",
+        "codigo": "02B052"
+    }, {
+        "nombre": "Departamento de Historia del Arte",
+        "codigo": "02B053"
+    }, {
+        "nombre": "Departamento de Historia del Arte y Musica",
+        "codigo": "02B0D7"
+    }, {
+        "nombre": "Departamento de Historia Medieval y Ciencias y Técnicas Historiográficas",
+        "codigo": "02B054"
+    }, {
+        "nombre": "Departamento de Historia Moderna y de América",
+        "codigo": "02B055"
+    }, {
+        "nombre": "Departamento de Historia y Ciencias de la Música",
+        "codigo": "02B0F1"
+    }, {
+        "nombre": "Departamento de Información y Comunicación",
+        "codigo": "02B0F2"
+    }, {
+        "nombre": "Departamento de Ingeniería Civil",
+        "codigo": "02B095"
+    }, {
+        "nombre": "Departamento de Ingeniería de la Construcción y Proyectos de Ingeniería",
+        "codigo": "02B0E3"
+    }, {
+        "nombre": "Departamento de Ingeniería Química",
+        "codigo": "02B056"
+    }, {
+        "nombre": "Departamento de Lengua Española",
+        "codigo": "02B0B3"
+    }, {
+        "nombre": "Departamento de Lenguajes y Sistemas Informáticos",
+        "codigo": "02B081"
+    }, {
+        "nombre": "Departamento de Lingüística General y Teoría de la Literatura",
+        "codigo": "02B058"
+    }, {
+        "nombre": "Departamento de Literatura Española",
+        "codigo": "02B0B4"
+    }, {
+        "nombre": "Departamento de Matemática Aplicada",
+        "codigo": "02B059"
+    }, {
+        "nombre": "Departamento de Mecánica de Estructuras e Ingeniería Hidráulica",
+        "codigo": "02B0D1"
+    }, {
+        "nombre": "Departamento de Medicina",
+        "codigo": "02B060"
+    }, {
+        "nombre": "Departamento de Medicina Legal, Toxicología y Antropología Física",
+        "codigo": "02B0E5"
+    }, {
+        "nombre": "Departamento de Medicina Preventiva y Salud Pública",
+        "codigo": "02B096"
+    }, {
+        "nombre": "Departamento de Metodología de las Ciencias del Comportamiento",
+        "codigo": "02B0E1"
+    }, {
+        "nombre": "Departamento de Métodos Cuantitativos para la Economía y la Empresa",
+        "codigo": "02B0B5"
+    }, {
+        "nombre": "Departamento de Métodos de Investigación y Diagnóstico en Educación",
+        "codigo": "02B0A8"
+    }, {
+        "nombre": "Departamento de Microbiología",
+        "codigo": "02B072"
+    }, {
+        "nombre": "Departamento de Mineralogía y Petrología",
+        "codigo": "02B073"
+    }, {
+        "nombre": "Departamento de Nutrición y Bromatología",
+        "codigo": "02B074"
+    }, {
+        "nombre": "Departamento de Obstetricia y Ginecología",
+        "codigo": "02B075"
+    }, {
+        "nombre": "Departamento de Óptica",
+        "codigo": "02B097"
+    }, {
+        "nombre": "Departamento de Organización de Empresas",
+        "codigo": "02B0B6"
+    }, {
+        "nombre": "Departamento de Parasitología",
+        "codigo": "02B076"
+    }, {
+        "nombre": "Departamento de Pedagogía",
+        "codigo": "02B077"
+    }, {
+        "nombre": "Departamento de Pediatría",
+        "codigo": "02B094"
+    }, {
+        "nombre": "Departamento de Personalidad, Evaluación y Tratamiento Psicológico",
+        "codigo": "02B061"
+    }, {
+        "nombre": "Departamento de Pintura",
+        "codigo": "02B085"
+    }, {
+        "nombre": "Departamento de Prehistoria y Arqueología",
+        "codigo": "02B062"
+    }, {
+        "nombre": "Departamento de Psicobiología",
+        "codigo": "02B0E6"
+    }, {
+        "nombre": "Departamento de Psicología Evolutiva y de la Educación",
+        "codigo": "02B063"
+    }, {
+        "nombre": "Departamento de Psicología Experimental",
+        "codigo": "02B0E7"
+    }, {
+        "nombre": "Departamento de Psicología Social",
+        "codigo": "02B0D9"
+    }, {
+        "nombre": "Departamento de Psiquiatría",
+        "codigo": "02B0E8"
+    }, {
+        "nombre": "Departamento de Química Analítica",
+        "codigo": "02B078"
+    }, {
+        "nombre": "Departamento de Química Farmacéutica y Orgánica",
+        "codigo": "02B0B7"
+    }, {
+        "nombre": "Departamento de Química Física",
+        "codigo": "02B066"
+    }, {
+        "nombre": "Departamento de Química Inorgánica",
+        "codigo": "02B067"
+    }, {
+        "nombre": "Departamento de Química Orgánica",
+        "codigo": "02B068"
+    }, {
+        "nombre": "Departamento de Radiología y Medicina Física",
+        "codigo": "02B069"
+    }, {
+        "nombre": "Departamento de Sociología",
+        "codigo": "02B070"
+    }, {
+        "nombre": "Departamento de Teoría de la Señal, Telemática y Comunicaciones",
+        "codigo": "02B0C3"
+    }, {
+        "nombre": "Departamento de Teoría e Historia Económica",
+        "codigo": "02B0C0"
+    }, {
+        "nombre": "Departamento de Trabajo Social y Servicios Sociales",
+        "codigo": "02B0C4"
+    }, {
+        "nombre": "Departamento de Traducción e Interpretación",
+        "codigo": "02B098"
+    }, {
+        "nombre": "Departamento de Urbanística y Ordenación del Territorio",
+        "codigo": "02B0E4"
+    }, {
+        "nombre": "Departamento de Zoología",
+        "codigo": "02B0E9"
+    }, {
+        "nombre": "Edificio Casa de Porras",
+        "codigo": "06US06"
+    }, {
+        "nombre": "Edificio Fray Luis de Granada",
+        "codigo": "03FLG"
+    }, {
+        "nombre": "Edificio Hospital Real/Complejo Administrativo Triunfo",
+        "codigo": "06US01"
+    }, {
+        "nombre": "Edificio Hospital Real/C.Triunfo.- Turno Tarde",
+        "codigo": "06US010"
+    }, {
+        "nombre": "Edificio Santa Lucía",
+        "codigo": "06US02"
+    }, {
+        "nombre": "Editorial Universidad de Granada",
+        "codigo": "SUS26B"
+    }, {
+        "nombre": "Equipo de Gerencia",
+        "codigo": "06EG08"
+    }, {
+        "nombre": "Equipo Mantenimiento Cartuja",
+        "codigo": "06US044"
+    }, {
+        "nombre": "Equipo Mantenimiento Centro 1",
+        "codigo": "06US041"
+    }, {
+        "nombre": "Equipo Mantenimiento Centro 2",
+        "codigo": "06US042"
+    }, {
+        "nombre": "Equipo Mantenimiento Fuentenueva",
+        "codigo": "06US043"
+    }, {
+        "nombre": "Equipo Mantenimiento Jardines",
+        "codigo": "06US045"
+    }, {
+        "nombre": "Equipos de Mantenimiento",
+        "codigo": "06US04"
+    }, {
+        "nombre": "Escuela de Doctorado de Ciencias de la Salud",
+        "codigo": "SUS27B"
+    }, {
+        "nombre": "Escuela de Doctorado de Ciencias, Tecnologías e Ingenierías",
+        "codigo": "SUS27D"
+    }, {
+        "nombre": "Escuela de Doctorado de Humanidades, Ciencias Sociales y Jurídicas",
+        "codigo": "SUS27C"
+    }, {
+        "nombre": "Escuela Internacional de Posgrado",
+        "codigo": "SUS27A"
+    }, {
+        "nombre": "E.T.S. de Arquitectura",
+        "codigo": "010B55"
+    }, {
+        "nombre": "E.T.S. de Ingeniería de Caminos, Canales y Puertos",
+        "codigo": "010B38"
+    }, {
+        "nombre": "E.T.S. de Ingeniería de Edificación",
+        "codigo": "010B68"
+    }, {
+        "nombre": "E.T.S. de Ingenierías Informática y de Telecomunicación",
+        "codigo": "010B60"
+    }, {
+        "nombre": "Extensión Universitaria",
+        "codigo": "06EG09"
+    }, {
+        "nombre": "Facultad de Bellas Artes",
+        "codigo": "010B01"
+    }, {
+        "nombre": "Facultad de Ciencias",
+        "codigo": "010B02"
+    }, {
+        "nombre": "Facultad de Ciencias de la Educación",
+        "codigo": "010B49"
+    }, {
+        "nombre": "Facultad de Ciencias de la Salud",
+        "codigo": "010B69"
+    }, {
+        "nombre": "Facultad de Ciencias de la Salud de Ceuta",
+        "codigo": "010B65"
+    }, {
+        "nombre": "Facultad de Ciencias del Deporte",
+        "codigo": "010B72"
+    }, {
+        "nombre": "Facultad de Ciencias del Trabajo",
+        "codigo": "010B59"
+    }, {
+        "nombre": "Facultad de Ciencias Económicas y Empresariales",
+        "codigo": "010B11"
+    }, {
+        "nombre": "Facultad de Ciencias Políticas y Sociología",
+        "codigo": "010B37"
+    }, {
+        "nombre": "Facultad de Ciencias Sociales de Melilla",
+        "codigo": "010B64"
+    }, {
+        "nombre": "Facultad de Comunicación y Documentación",
+        "codigo": "010B61"
+    }, {
+        "nombre": "Facultad de Derecho",
+        "codigo": "010B03"
+    }, {
+        "nombre": "Facultad de Educación, Economía y Tecnología de Ceuta",
+        "codigo": "010B74"
+    }, {
+        "nombre": "Facultad de Educación y Humanidades de Melilla",
+        "codigo": "010B57"
+    }, {
+        "nombre": "Facultad de Enfermería de Melilla",
+        "codigo": "010B66"
+    }, {
+        "nombre": "Facultad de Farmacia",
+        "codigo": "010B04"
+    }, {
+        "nombre": "Facultad de Filosofía y Letras",
+        "codigo": "010B05"
+    }, {
+        "nombre": "Facultad de Medicina",
+        "codigo": "010B06"
+    }, {
+        "nombre": "Facultad de Odontología",
+        "codigo": "010B07"
+    }, {
+        "nombre": "Facultad de Psicología",
+        "codigo": "010B50"
+    }, {
+        "nombre": "Facultad de Trabajo Social",
+        "codigo": "010B67"
+    }, {
+        "nombre": "Facultad de Traducción e Interpretación",
+        "codigo": "010B53"
+    }, {
+        "nombre": "Fundación General Universidad de Granada Empresa",
+        "codigo": "SUFGU"
+    }, {
+        "nombre": "Gabinete de Acción Social",
+        "codigo": "06SA02"
+    }, {
+        "nombre": "Gabinete de Calidad de Vida y Envejecimiento",
+        "codigo": "SUS22A"
+    }, {
+        "nombre": "Gabinete de Comunicación",
+        "codigo": "06UG07"
+    }, {
+        "nombre": "Gabinete de la Rectora",
+        "codigo": "06UG06"
+    }, {
+        "nombre": "Gabinete de Prevención y Calidad Ambiental",
+        "codigo": "06SA01"
+    }, {
+        "nombre": "Gabinete de Protocolo y Relaciones Institucionales",
+        "codigo": "06EG04"
+    }, {
+        "nombre": "Gabinete de Recursos Humanos y Organización",
+        "codigo": "06GA02"
+    }, {
+        "nombre": "Gabinete Técnico de Construcción, Conservación y Mantenimiento",
+        "codigo": "06GA03"
+    }, {
+        "nombre": "Gerencia",
+        "codigo": "07OR12"
+    }, {
+        "nombre": "Herbario",
+        "codigo": "SUHBU"
+    }, {
+        "nombre": "Herbario Universidad",
+        "codigo": "03HBU"
+    }, {
+        "nombre": "Hospital Real",
+        "codigo": "06EDIR"
+    }, {
+        "nombre": "Inspección de Servicios",
+        "codigo": "06EG06"
+    }, {
+        "nombre": "Inst. Nutrición y Tecnología de Alimentos 'José Mataix Verdu'",
+        "codigo": "031NI"
+    }, {
+        "nombre": "Instituto Andaluz de Ciencias de la Tierra",
+        "codigo": "031GI"
+    }, {
+        "nombre": "Instituto Andaluz de Geofísica y Prevención Desastres Sísmicos",
+        "codigo": "031SI"
+    }, {
+        "nombre": "Instituto Andaluz Interuniversitario de Criminología",
+        "codigo": "031CI"
+    }, {
+        "nombre": "Instituto 'Carlos I' de Física Teórica y Computacional",
+        "codigo": "031UI"
+    }, {
+        "nombre": "Instituto Confucio",
+        "codigo": "03CONF"
+    }, {
+        "nombre": "Instituto de Biopatología y Medicina Regenerativa",
+        "codigo": "03IBIM"
+    }, {
+        "nombre": "Instituto de Biotecnología",
+        "codigo": "031BI"
+    }, {
+        "nombre": "Instituto de Investigación de Estudios de las Mujeres y de Género",
+        "codigo": "03IEMG"
+    }, {
+        "nombre": "Instituto de Migraciones",
+        "codigo": "03IMI"
+    }, {
+        "nombre": "Instituto de Neurociencias 'Federico Olóriz'",
+        "codigo": "031FI"
+    }, {
+        "nombre": "Instituto del Agua",
+        "codigo": "031AI"
+    }, {
+        "nombre": "Instituto Inter de Inv. del Sistema Tierra en Andalucía (Ceama)",
+        "codigo": "03IIST"
+    }, {
+        "nombre": "Instituto Universitario de Estudios de la Mujer",
+        "codigo": "03IEM"
+    }, {
+        "nombre": "Instituto Universitario de Investigación de Desarrollo Regional",
+        "codigo": "031RI"
+    }, {
+        "nombre": "Instituto Universitario de la Paz y los Conflictos",
+        "codigo": "031PC"
+    }, {
+        "nombre": "Junta de Personal de Administración y Servicios",
+        "codigo": "09S3"
+    }, {
+        "nombre": "Junta de Personal Docente e Investigador Funcionario",
+        "codigo": "09S2"
+    }, {
+        "nombre": "Oficina de Control Interno",
+        "codigo": "06EG05"
+    }, {
+        "nombre": "Oficina de Datos Análisis y Prospectiva",
+        "codigo": "SUS12A"
+    }, {
+        "nombre": "Oficina de Datos, Información y Prospectiva (Odip)",
+        "codigo": "SUS02B"
+    }, {
+        "nombre": "Oficina de Energía e Instalaciones",
+        "codigo": "SUS07A"
+    }, {
+        "nombre": "Oficina de Gestión de la Comunicación",
+        "codigo": "SUS02C"
+    }, {
+        "nombre": "Oficina de Infraestructura y Patrimonio",
+        "codigo": "SUS12C"
+    }, {
+        "nombre": "Oficina de Proyectos Internacionales",
+        "codigo": "SUS05A"
+    }, {
+        "nombre": "Oficina de Relaciones Internacionales y Cooperación Universitaria al Desarrollo",
+        "codigo": "06SG02"
+    }, {
+        "nombre": "Oficina de Software Libre",
+        "codigo": "SUS29B"
+    }, {
+        "nombre": "Oficina de Transferencia de Resultados de Investigación",
+        "codigo": "06UG04"
+    }, {
+        "nombre": "Oficina Económica",
+        "codigo": "SUS12B"
+    }, {
+        "nombre": "Oficina Web",
+        "codigo": "SUS29A"
+    }, {
+        "nombre": "Política Científica",
+        "codigo": "SUS26A"
+    }, {
+        "nombre": "Rectorado",
+        "codigo": "07OR01"
+    }, {
+        "nombre": "Relaciones con Centros de Enseñanza Secundaria",
+        "codigo": "SUS17A"
+    }, {
+        "nombre": "Residencia Carlos V",
+        "codigo": "08RCV"
+    }, {
+        "nombre": "Residencia Universitaria Carmen de la Victoria",
+        "codigo": "087MC"
+    }, {
+        "nombre": "Residencia Universitaria Corrala de Santiago",
+        "codigo": "08RMC"
+    }, {
+        "nombre": "Sección Sindical Cc.Oo. Comisiones Obreras",
+        "codigo": "09S10"
+    }, {
+        "nombre": "Sección Sindical Csi-F Central Sindical Independiente y de Func",
+        "codigo": "09S9"
+    }, {
+        "nombre": "Sección Sindical Cta Granada- Coordinadora de Trabajadores de a",
+        "codigo": "09S5"
+    }, {
+        "nombre": "Sección Sindical Fete-Ugt",
+        "codigo": "09S8"
+    }, {
+        "nombre": "Sección Sindical Situgr-Sat Sindicato Independiente de la Ugr-S",
+        "codigo": "09S6"
+    }, {
+        "nombre": "Sección Sindical Ustea",
+        "codigo": "09S7"
+    }, {
+        "nombre": "Secretaría General",
+        "codigo": "07OR02"
+    }, {
+        "nombre": "Secretaría General (Administración)",
+        "codigo": "06EG02"
+    }, {
+        "nombre": "Secretariado de Campus Saludable",
+        "codigo": "SUS22E"
+    }, {
+        "nombre": "Secretariado de Coordinación Académica de la Internacionalización",
+        "codigo": "SUS28C"
+    }, {
+        "nombre": "Secretariado de Estrategia Internacional",
+        "codigo": "SUS28D"
+    }, {
+        "nombre": "Secretariado de Evaluación, Mejora y Acreditación de Títulos y Servicios",
+        "codigo": "SUS02A"
+    }, {
+        "nombre": "Secretariado de Formación, Innovación y Evaluación Docente",
+        "codigo": "SUS02E"
+    }, {
+        "nombre": "Secretariado de Igualdad y Conciliación",
+        "codigo": "SUS22D"
+    }, {
+        "nombre": "Secretariado de Información y Participación Estudiantil",
+        "codigo": "SUS25A"
+    }, {
+        "nombre": "Secretariado de Másteres y Títulos Propios",
+        "codigo": "SUS27E"
+    }, {
+        "nombre": "Secretariado de Personal Docente e Investigador",
+        "codigo": "SUS24B"
+    }, {
+        "nombre": "Secretariado de Plantilla y Planificación",
+        "codigo": "SUS24A"
+    }, {
+        "nombre": "Secretariado de Política Linguistica",
+        "codigo": "SUS28E"
+    }, {
+        "nombre": "Secretariado para la Inclusión y la Diversidad",
+        "codigo": "SUS22C"
+    }, {
+        "nombre": "Servicio de Alumnos",
+        "codigo": "06SG03"
+    }, {
+        "nombre": "Servicio de Asistencia Estudiantil",
+        "codigo": "06SG04"
+    }, {
+        "nombre": "Servicio de Asuntos Generales",
+        "codigo": "06SG05"
+    }, {
+        "nombre": "Servicio de Becas",
+        "codigo": "06SG06"
+    }, {
+        "nombre": "Servicio de Conductores",
+        "codigo": "06US05"
+    }, {
+        "nombre": "Servicio de Contabilidad y Presupuesto",
+        "codigo": "06SG09"
+    }, {
+        "nombre": "Servicio de Contratación y Gestión Patrimonial",
+        "codigo": "06SG08"
+    }, {
+        "nombre": "Servicio de Correo",
+        "codigo": "06US07"
+    }, {
+        "nombre": "Servicio de Evaluación ,Calidad y Planes de Estudio",
+        "codigo": "06SA03"
+    }, {
+        "nombre": "Servicio de Gestión de Investigación",
+        "codigo": "06SG01"
+    }, {
+        "nombre": "Servicio de Gestión Económico-Financiero",
+        "codigo": "06SG10"
+    }, {
+        "nombre": "Servicio de Habilitación y Seguridad Social",
+        "codigo": "06SG14"
+    }, {
+        "nombre": "Servicio de Ordenación Académica y de Estadística",
+        "codigo": "06SG11"
+    }, {
+        "nombre": "Servicio de Personal de Administración y Servicios",
+        "codigo": "06SG13"
+    }, {
+        "nombre": "Servicio de Personal Docente e Investigador",
+        "codigo": "06SG12"
+    }, {
+        "nombre": "Servicio de Prevención de Riesgos Laborales",
+        "codigo": "SUS16B"
+    }, {
+        "nombre": "Servicio de Protección Radiológica",
+        "codigo": "SUS22B"
+    }, {
+        "nombre": "Servicios Jurídicos",
+        "codigo": "06GA01"
+    }, {
+        "nombre": "Unidad de Becas y Asistencia al Estudiante",
+        "codigo": "SUS25E"
+    }, {
+        "nombre": "Unidad de Calidad Ambiental",
+        "codigo": "SUS16D"
+    }, {
+        "nombre": "Unidad de Calidad, Innovación y Prospectiva",
+        "codigo": "SUS02D"
+    }, {
+        "nombre": "Unidad de Orientación Profesional y Empleabilidad",
+        "codigo": "SUS25D"
+    }, {
+        "nombre": "Unidad para la Igualdad entre Mujeres y Hombres de la Ugr",
+        "codigo": "SUS16E"
+    }, {
+        "nombre": "Unidad Técnica de Construcción",
+        "codigo": "06UG14"
+    }, {
+        "nombre": "Vicerrectorado de Docencia",
+        "codigo": "07OR27"
+    }, {
+        "nombre": "Vicerrectorado de Estudiantes y Empleabilidad",
+        "codigo": "07OR25"
+    }, {
+        "nombre": "Vicerrectorado de Extensión Universitaria",
+        "codigo": "07OR23"
+    }, {
+        "nombre": "Vicerrectorado de Internacionalización",
+        "codigo": "07OR28"
+    }, {
+        "nombre": "Vicerrectorado de Investigación y Transferencia",
+        "codigo": "07OR26"
+    }, {
+        "nombre": "Vicerrectorado de Personal Docente e Investigador",
+        "codigo": "07OR24"
+    }, {
+        "nombre": "Vicerrectorado de Responsabilidad Social, Igualdad e Inclusión",
+        "codigo": "07OR22"
+    }, {
+        "nombre": "Centro de origen desconocido",
+        "codigo": "111111"
+    }]
 }
