@@ -49,9 +49,9 @@ $(document).ready(function() {
 
 		if (codigo !== null) {
 			limpiarCampos();
-			var articulo = parseInt(codigo.substring(0, 2));
-			var centro = codigo.substring(2, 8);
-			var codid = codigo.substring(8, 13);
+			var centro = codigo.substring(0, 6);
+			var articulo = parseInt(codigo.substring(6, 8));
+			var codid = codigo.substring(10, 15);
 
 			var centroAux = getCentro(centro);
 			var articuloAux = getArticulo(articulo);

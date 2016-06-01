@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 					var id = "00000".substring(0, 5 - aux.length) + aux;
 					codCent = "000000".substring(0, 6 - codCent.length) + codCent;
-					var codigo = codArt + codCent + id;
+					var codigo = codCent + codArt + "00" + id;
 
 					document.getElementById("codid").value = codigo;
 				});

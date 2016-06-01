@@ -41,7 +41,7 @@ block content
                 input#modelo.form-control(type='text', name='modelo', size='30')
               .col-xs-8.col-sm-4
                 label(for='peso') Peso (en kg)
-                input#peso.form-control(type='text', name='peso')
+                input#peso.form-control(type='number', name='peso', min='0', step='0.01')
               .col-xs-8.col-sm-4
                 label(for='funciona') ¿Funciona?
                 input#funciona.form-control(type='checkbox', name='funciona')

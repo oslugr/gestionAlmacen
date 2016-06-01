@@ -36,26 +36,26 @@ function handleResponse(e) {
 
     var datos = hoja.getSheetValues(1, 1, uFila, 1);
     var existe = false;
-    var j = 0;
+    var aux = 0;
 
-    while (!existe && j < uFila) {
-      if (datos[j][0] == e.parameter["codigo"]) {
+    while (!existe && aux < uFila) {
+      if (datos[aux][0] == e.parameter["codigo"]) {
         existe = true;
       }
 
-      j++;
+      aux++;
     }
 
     if (!existe) {
       var sigFila = uFila + 1;
     } else {
-      var sigFila = j;
+      var sigFila = aux;
     }
 
     hoja.getRange(sigFila, 1, 1, fila.length).setValues([fila]);
 
     var rango = s.getRange(3, 1, uFila - 1, uColu);
-    
+
     rango.sort([{
       column: 4,
       ascending: true
